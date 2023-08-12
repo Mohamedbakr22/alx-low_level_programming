@@ -1,14 +1,19 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/**
+ * main - entry point
+ *
+ * Description: false or true validation
+ *
+ *Return: 0 (success)
+*/
 int main(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0;i < 26; i++)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(alp[i])
 	}
