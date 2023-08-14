@@ -4,8 +4,6 @@
 /**
  * main - entry point
  *
- * Description: false or true validation
- *
  * Retun: Always 0 (Success)
 */
 
