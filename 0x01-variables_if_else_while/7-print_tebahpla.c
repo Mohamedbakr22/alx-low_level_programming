@@ -1,15 +1,22 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/**
+ * main - entry point
+ *
+ * Description: false or true validation
+ *
+ *Return: 0 (success)
+*/
 int main(void)
+
 {
-        char ch;
-        for (ch = 'z'; ch >= 'a'; ch--)
-        {
-                printf("%d",i);
-        }
-        putchar("\n");
-        return (0);
+
+	char ch;
+
+	for (ch = 'z'; ch >= 'a'; ch--)
+	putchar(ch);
+	putchar('\n');
+
+	return (0);
 }
